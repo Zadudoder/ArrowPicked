@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arrowpicked",
+	"version": "${version}",
+	"name": "ArrowPicked",
+	"description": "Mod that allows you to display an arrow from your crossbow on the screen",
+	"authors": [
+		"Zadudoder"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/arrowpicked/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"zadudoder.arrowpicked.ArrowPicked"
+		],
+		"client": [
+			"zadudoder.arrowpicked.ArrowPickedClient"
+		],
+		"modmenu": [
+			"zadudoder.arrowpicked.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"arrowpicked.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

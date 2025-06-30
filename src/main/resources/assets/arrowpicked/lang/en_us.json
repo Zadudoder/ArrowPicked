@@ -1,0 +1,8 @@
+{
+  "title.arrowpicked.config": "ArrowPicked mod config",
+  "option.arrowpicked.modEnabled": "Enable arrow display:",
+  "option.arrowpicked.posX": "Horizontal arrow position:",
+  "option.arrowpicked.posY": "Vertical arrow position:",
+  "option.arrowpicked.size": "Arrow size in pixels:",
+  "text.arrowpicked.pixels": "%s px"
+}

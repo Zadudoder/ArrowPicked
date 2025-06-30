@@ -1,0 +1,8 @@
+{
+  "title.arrowpicked.config": "Конфиг мода ArrowPicked",
+  "option.arrowpicked.modEnabled": "Включить отображение стрелы:",
+  "option.arrowpicked.posX": "Горизонтальная позиция стрелы:",
+  "option.arrowpicked.posY": "Вертикальная позиция стрелы:",
+  "option.arrowpicked.size": "Размер стрелы в пикселях:",
+  "text.arrowpicked.pixels": "%s пикселей"
+}
