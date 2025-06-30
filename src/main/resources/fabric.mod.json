@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/Zadudoder/ArrowPicked",
-		"sources": "https://github.com/Zadudoder/ArrowPicked"
+		"sources": "https://github.com/Zadudoder/ArrowPicked",
+		"issues": "https://github.com/Zadudoder/ArrowPicked/issues"
 	},
 	"license": "MIT License",
 	"icon": "assets/arrowpicked/icon.png",
