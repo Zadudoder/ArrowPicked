@@ -41,11 +41,9 @@ public abstract class InGameHudMixin {
             int screenHeight = context.getScaledWindowHeight();
             int size = config.arrowSize;
 
-            // Рассчитываем позицию
             int x = config.getCalculatedX(screenWidth, size);
             int y = config.getCalculatedY(screenHeight, size);
 
-            // Рисуем стрелу
             MatrixStack matrices = context.getMatrices();
             matrices.push();
             matrices.translate(x, y, 0);
